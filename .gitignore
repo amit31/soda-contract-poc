@@ -76,4 +76,4 @@ yarn-error.log
 .Pipfile.lock
 .Pipfile
 
-data/data_contract.yml
+data/*data_contract.yml
