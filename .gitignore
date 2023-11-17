@@ -75,3 +75,5 @@ yarn-error.log
 # Pipenv
 .Pipfile.lock
 .Pipfile
+
+data/data_contract.yml
