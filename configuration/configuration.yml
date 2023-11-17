@@ -1,0 +1,9 @@
+data_source vertica_local:
+  type: vertica
+  connection:
+    host: localhost
+    port: '5433'
+    username: dbadmin
+    password: foo123
+    database: Vmart
+    schema: public

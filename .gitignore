@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Python environment
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Output of coverage tool
+htmlcov/
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+build/
+dist/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+
+# Translations
+*.mo
+
+# Scrapy
+.scrapy
+
+# Flask
+instance/
+.webassets-cache
+
+# Node
+node_modules/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Yarn
+yarn-error.log
+
+# Pipenv
+.Pipfile.lock
+.Pipfile
