@@ -24,9 +24,11 @@ Why Vertica? because Vertica creates initial data when starting the container, w
     ```bash
     docker-compose -f ./docker/docker-compose.yml up -d
     ```
-    If you are using Mac M1 Processor then use the following command to install  Verica container: 
+    If you are using Mac M1 Processor then use the following command to install  Vertica container: 
      ```bash
-    docker run -p 5433:5433 -p 5444:5444 --name vertica_ce   --platform linux/amd64   --env VERTICA_MEMDEBUG=2 vertica/vertica-ce:12.0.4-0
+    export DOCKER_DEFAULT_PLATFORM=linux/arm64
+    export DOCKER_BUILDKIT=0
+    docker-compose -f ./docker/docker-compose.yml up -d
     ```
 ## Usage
 
