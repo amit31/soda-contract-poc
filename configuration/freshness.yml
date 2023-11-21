@@ -1,0 +1,3 @@
+checks for customer_dimension:
+  - row_count between 10 and 1000
+  - freshness(last_deal_update) < 1d
